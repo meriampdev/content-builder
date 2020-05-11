@@ -1,0 +1,32 @@
+.tools-wrapper {
+  margin: 20px;
+  border-right: 1px solid rgba(0,0,0,0.1); 
+  flex-wrap: wrap;
+  .tool-item {
+    min-width: 20%;
+    cursor: move;
+    margin: 10px 10px 0 0;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-gap: 5px;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,0.1); 
+    border-radius: 4px;
+
+    .MuiSvgIcon-root {
+      font-size: 30px;
+      color: cornflowerblue;
+    }
+
+    .tool-item-label {
+      display: flex;
+      align-items: center;
+    }
+
+    &:hover {
+      background-color: #ced8e8;
+      color: cornflowerblue;
+      font-weight: 700;
+    }
+  }
+}
